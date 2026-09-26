@@ -1,0 +1,10 @@
+name = "blueprint-api"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Create this KV namespace first with:
+#   wrangler kv namespace create BLUEPRINTS
+# then paste the returned id below.
+[[kv_namespaces]]
+binding = "BLUEPRINTS"
+id = "REPLACE-WITH-YOUR-KV-NAMESPACE-ID"

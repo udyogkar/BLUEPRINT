@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blueprint — Know if your business idea is worth starting</title>
+<meta name="description" content="Free AI verdict on your business idea in 3 minutes. See a viability score, real risks, and a starting plan built for your city and budget.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230B3D62%22/><path d=%22M20 20h60v60H20z%22 fill=%22none%22 stroke=%22%23E8871E%22 stroke-width=%224%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#validate">Skip to the free verdict form</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="#top" class="brand" id="top">
+      <svg viewBox="0 0 40 40" width="28" height="28" aria-hidden="true">
+        <rect x="4" y="4" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.5"/>
+        <line x1="4" y1="14" x2="36" y2="14" stroke="currentColor" stroke-width="1.5"/>
+        <line x1="14" y1="14" x2="14" y2="36" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <span>Blueprint</span>
+    </a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#validate">Validate</a>
+      <a href="#sample-report">Sample Report</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#validate" class="btn btn--primary btn--sm">Get my free verdict</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__copy">
+      <p class="eyebrow">Free · 3 minutes · No card needed</p>
+      <h1>Know if your business idea is worth starting. Before you spend a rupee.</h1>
+      <p class="hero__lede">Tell us your idea, your city and your budget. Get a real viability score and an honest verdict — not generic encouragement.</p>
+      <div class="hero__ctas">
+        <a href="#validate" class="btn btn--primary">Get my free verdict</a>
+        <a href="#sample-report" class="btn btn--ghost">See a sample report first</a>
+      </div>
+      <ul class="hero__stats" aria-label="Key facts">
+        <li><strong id="stat-count">1</strong><span>idea scored so far</span></li>
+        <li><strong>3 min</strong><span>to your verdict</span></li>
+        <li><strong>100%</strong><span>free to start</span></li>
+      </ul>
+    </div>
+
+    <div class="hero__card" aria-hidden="true">
+      <div class="score-card">
+        <p class="score-card__label">SAMPLE · LIVE VERDICT</p>
+        <h3>Home-made chocolate business</h3>
+        <p class="score-card__meta">D2C · weekend markets + Instagram · Ratnagiri</p>
+        <div class="score-row">
+          <span>Viability</span>
+          <div class="score-bar"><span style="width:78%"></span></div>
+          <strong>78/100</strong>
+        </div>
+        <div class="score-row">
+          <span>Market opportunity</span>
+          <div class="score-bar"><span style="width:70%"></span></div>
+          <strong>70/100</strong>
+        </div>
+        <div class="score-row">
+          <span>Execution risk</span>
+          <div class="score-bar score-bar--risk"><span style="width:40%"></span></div>
+          <strong>40/100</strong>
+        </div>
+        <p class="score-card__verdict">Verdict: <span class="stamp stamp--sm" data-tone="go">GO</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAMPLE REPORT -->
+  <section class="section" id="sample-report" aria-labelledby="sample-title">
+    <p class="section__eyebrow">Not sure this works? Look first.</p>
+    <h2 id="sample-title">A verdict we already generated</h2>
+    <p class="section__lede">This one is fixed — it doesn't call the AI, so it's free for us to show you. Yours will be generated live for your exact idea.</p>
+
+    <article class="report-sample">
+      <header class="report-sample__head">
+        <div>
+          <p class="report-sample__idea">"Tiffin service for office-goers, home kitchen, ₹30,000 capital, Kolhapur"</p>
+        </div>
+        <span class="stamp" data-tone="caution">GO — WITH CHANGES</span>
+      </header>
+      <p class="report-sample__summary">Solid demand in a tier-2 office market, but ₹30,000 won't cover a second cook past month one — start solo and reinvest before hiring.</p>
+      <div class="drawing-grid">
+        <div class="panel">
+          <h3>Why</h3>
+          <p>Office tiffin demand in Kolhapur is steady and repeat-order-driven, and home-kitchen models keep fixed costs near zero. The risk isn't demand — it's whether ₹30,000 stretches through the slow first 3–4 weeks before word-of-mouth kicks in.</p>
+        </div>
+        <div class="panel">
+          <h3>Watch out for</h3>
+          <ul>
+            <li>FSSAI registration and basic kitchen hygiene compliance before first sale</li>
+            <li>Delivery cost eating margin if you use aggregators instead of a fixed local route</li>
+            <li>Menu fatigue — repeat customers churn fastest when the menu doesn't rotate</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Do this first</h3>
+          <ul>
+            <li>Pre-sell 15 tiffins to neighbours/coworkers before spending on packaging</li>
+            <li>Register on FSSAI's basic registration (not license) — it's cheap and fast at this scale</li>
+            <li>Fix a 6-day rotating menu now, so costing is predictable from day one</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- VALIDATE -->
+  <section class="section section--form" id="validate" aria-labelledby="validate-title">
+    <p class="section__eyebrow">Your turn</p>
+    <h2 id="validate-title">What are you trying to build?</h2>
+    <p class="section__lede">Answer in plain words. No jargon needed.</p>
+
+    <form id="idea-form" novalidate>
+      <div class="field">
+        <label for="idea">Your business idea</label>
+        <textarea id="idea" name="idea" rows="3" required minlength="10" maxlength="600"
+          placeholder="e.g. Home-made chocolate business, selling at weekend markets and on Instagram"></textarea>
+        <p class="field__error" data-error-for="idea" role="alert"></p>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="budget">Capital you can put in</label>
+          <select id="budget" name="budget" required>
+            <option value="">Choose an amount</option>
+            <option value="under-10k">Under ₹10,000</option>
+            <option value="10k-50k">₹10,000 – ₹50,000</option>
+            <option value="50k-2l">₹50,000 – ₹2,00,000</option>
+            <option value="2l-10l">₹2,00,000 – ₹10,00,000</option>
+            <option value="above-10l">Above ₹10,00,000</option>
+          </select>
+          <p class="field__error" data-error-for="budget" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="city">City / town</label>
+          <input type="text" id="city" name="city" required minlength="2" maxlength="60"
+            placeholder="e.g. Ratnagiri">
+          <p class="field__error" data-error-for="city" role="alert"></p>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="stage">Where are you right now</label>
+          <select id="stage" name="stage" required>
+            <option value="">Choose one</option>
+            <option value="idea-only">Just an idea, nothing started</option>
+            <option value="testing">Testing it in a small way already</option>
+            <option value="running">Already running, want to grow</option>
+          </select>
+          <p class="field__error" data-error-for="stage" role="alert"></p>
+        </div>
+
+        <div class="field">
+          <label for="language">Blueprint language</label>
+          <select id="language" name="language" required>
+            <option value="english">English</option>
+            <option value="marathi">Marathi</option>
+            <option value="hindi">Hindi</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn--primary btn--block" id="verdict-btn">
+        <span class="btn__label">Get my free verdict</span>
+        <span class="btn__spinner" hidden aria-hidden="true"></span>
+      </button>
+      <p class="field__error" data-error-for="form" role="alert"></p>
+    </form>
+  </section>
+
+  <!-- VERDICT RESULT -->
+  <section class="section section--result" id="sheet-verdict" hidden aria-labelledby="verdict-title">
+    <p class="section__eyebrow">Your verdict</p>
+    <h2 id="verdict-title">Here's where you stand</h2>
+
+    <div id="verdict-error" class="statebox statebox--error" hidden role="alert">
+      <p class="statebox__title">Couldn't generate your verdict</p>
+      <p class="statebox__body" id="verdict-error-message"></p>
+      <button type="button" class="btn btn--ghost" id="verdict-retry">Try again</button>
+    </div>
+
+    <div id="verdict-result" hidden>
+      <div class="score-panel">
+        <div class="score-row">
+          <span>Viability</span>
+          <div class="score-bar"><span id="bar-viability" style="width:0%"></span></div>
+          <strong id="num-viability">0/100</strong>
+        </div>
+        <div class="score-row">
+          <span>Market opportunity</span>
+          <div class="score-bar"><span id="bar-market" style="width:0%"></span></div>
+          <strong id="num-market">0/100</strong>
+        </div>
+        <div class="score-row">
+          <span>Execution risk</span>
+          <div class="score-bar score-bar--risk"><span id="bar-risk" style="width:0%"></span></div>
+          <strong id="num-risk">0/100</strong>
+        </div>
+      </div>
+
+      <div class="stamp" id="verdict-stamp"><span id="verdict-stamp-text">GO</span></div>
+      <p class="verdict-summary" id="verdict-summary"></p>
+
+      <div class="drawing-grid">
+        <div class="panel">
+          <h3>Why</h3>
+          <p id="verdict-reasoning"></p>
+        </div>
+        <div class="panel">
+          <h3>Watch out for</h3>
+          <ul id="verdict-risks"></ul>
+        </div>
+        <div class="panel">
+          <h3>Do this first</h3>
+          <ul id="verdict-next-steps"></ul>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn--text" id="edit-answers">Edit my answers</button>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section section--pricing" id="pricing" aria-labelledby="pricing-title">
+    <p class="section__eyebrow">When you're ready</p>
+    <h2 id="pricing-title">Turn the verdict into a plan you can act on</h2>
+    <p class="section__lede">Every section is generated for your idea, your budget and your city — not a generic template. Fill in the form above first, so we know what to build for.</p>
+
+    <div class="pricing-grid">
+      <article class="price-card" data-plan="quick">
+        <h3>Quick Start</h3>
+        <p class="price-card__price">₹99</p>
+        <ul>
+          <li>Step-by-step launch checklist</li>
+          <li>Where to source stock/materials near you</li>
+          <li>A simple first-30-days plan</li>
+        </ul>
+        <button type="button" class="btn btn--primary btn--block buy-btn" data-plan="quick">Buy Quick Start</button>
+      </article>
+
+      <article class="price-card price-card--featured" data-plan="complete">
+        <p class="price-card__badge">MOST COMPLETE</p>
+        <h3>Complete Blueprint</h3>
+        <p class="price-card__price">₹199</p>
+        <ul>
+          <li>Everything in Quick Start</li>
+          <li>Pricing &amp; margin worksheet for your budget</li>
+          <li>Local competition &amp; positioning notes</li>
+          <li>90-day growth roadmap</li>
+          <li>Downloadable report</li>
+        </ul>
+        <button type="button" class="btn btn--primary btn--block buy-btn" data-plan="complete">Buy Complete Blueprint</button>
+      </article>
+    </div>
+
+    <div id="payment-status" class="statebox" hidden role="status"></div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how-it-works" aria-labelledby="how-title">
+    <p class="section__eyebrow">The path</p>
+    <h2 id="how-title">From idea to a plan you can start on</h2>
+
+    <ol class="steps">
+      <li class="steps__item">
+        <span class="steps__num">1</span>
+        <div>
+          <h3>Validate</h3>
+          <p>Answer 4 questions about your idea, budget and city.</p>
+        </div>
+      </li>
+      <li class="steps__item">
+        <span class="steps__num">2</span>
+        <div>
+          <h3>Verdict</h3>
+          <p>Get a free viability score and an honest go/no-go call in your language.</p>
+        </div>
+      </li>
+      <li class="steps__item">
+        <span class="steps__num">3</span>
+        <div>
+          <h3>Blueprint</h3>
+          <p>Unlock the full step-by-step plan, priced for your exact idea and city.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <p class="section__eyebrow">Before you ask</p>
+    <h2 id="faq-title">Questions people actually have</h2>
+
+    <div class="accordion">
+      <details>
+        <summary>Is the free verdict actually free?</summary>
+        <p>Yes. The viability score, verdict, top risks and first steps cost nothing and don't need a card. The full step-by-step blueprint is a one-time ₹99 or ₹199 unlock.</p>
+      </details>
+      <details>
+        <summary>Is this generic, or actually about my idea?</summary>
+        <p>It's generated from what you type — your idea, your budget, your city. No two verdicts read the same unless two people type the same thing.</p>
+      </details>
+      <details>
+        <summary>What if my idea gets a "rethink"?</summary>
+        <p>Then it's saved you the money you'd have spent finding that out the hard way. The reasoning section tells you exactly what's weak, so you can fix it and try again — free, as many times as you want.</p>
+      </details>
+      <details>
+        <summary>Can I get help beyond the blueprint?</summary>
+        <p>Yes — message us on WhatsApp below if you want to talk it through with a person.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- WHATSAPP CTA -->
+  <section class="section section--contact">
+    <h2>Not sure where to start?</h2>
+    <p class="section__lede">Message us your idea directly — a real person replies, not a bot.</p>
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%27d%20like%20help%20with%20my%20business%20idea" class="btn btn--primary" target="_blank" rel="noopener">Chat on WhatsApp</a>
+  </section>
+
+</main>
+
+<footer class="sitefooter">
+  <p>Blueprint gives you a starting plan, not a guarantee — the market decides the rest.</p>
+</footer>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
